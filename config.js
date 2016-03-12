@@ -2,7 +2,7 @@
 exports.url = 'play.pokemonshowdown.com';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
+var nick = exports.nick = 'RunBot'
 exports.pass = '';
 
 // A list of private rooms that the bot will not leak through the seen command
