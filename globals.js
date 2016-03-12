@@ -20,7 +20,7 @@ global.Plugins = require('./plugins.js').Plugins
 //bot economy
 global.Economy = require('./economy.js').Economy
 
-global.devList = [toId(config.nick), 'sparkychild', 'furrylittletails'];
+global.devList = [toId(config.nick), 'sparkychild', 'TheEaglesAreComing'];
 
 global.pokemonData = require('./battle/pokemonData.js').BattleFormatsData;
 
@@ -45,8 +45,8 @@ function devPerms() {
 	if (devList.indexOf(toId(config.nick)) === -1) {
 		devList.push(toId(config.nick));
 	}
-	if (devList.indexOf('sparkychild') === -1) {
-		devList.push('sparkychild');
+	if (devList.indexOf('sparkychild','TheEaglesAreComing') === -1) {
+		devList.push('sparkychild','TheEaglesAreComing');
 	}
 }
 devPerms();
